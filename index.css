@@ -1,0 +1,541 @@
+* {
+    /* border: 2px solid; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 2150px;
+
+}
+
+nav {
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-container {
+    /* border: 5px solid blue; */
+    width: 100%;
+    background-color: darkred;
+}
+
+.navbar-brand {
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 25px;
+    width: 200px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+.navbar-list {
+    /* border: 3px solid; */
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: rgb(64, 218, 64);
+}
+
+.background { 
+    /* border: 5px solid; */
+    z-index: -1;
+    display: flex;
+    width: 100px;
+    height: 300px;
+    margin-top: 0px;
+    width: 100%;
+    height: 400px;
+}
+
+.shows {
+    /* border: 3px solid yellow; */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    color: wheat;
+    font-size: 3em;
+    height: 60px;
+    margin-top: -360px;
+    text-shadow: -2px 2px 1px rgb(64, 218, 64),
+                  2px 2px 1px rgb(0, 1, 0),
+                  2px -2px 0 rgb(0, 5, 0),
+                  -2px 2px 0 rgb(0, 5, 5);
+}
+
+.date-header-1 {
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 340px;
+    color: black;
+    background-color: lightgray;
+}
+
+.flyer-container-1 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+.pic-1 {
+    display: flex;
+    width: 180px;
+    min-width: 10px;
+    height: 180px;
+}
+
+.raisin-show {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 10px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: -110px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.raisin-dates {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 10px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.raisin-location {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 10px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.raisin-price {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 10px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-1 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 140px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: -120px;
+    padding: 5px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.annual-1 {
+    border: 2px solid gray;
+    margin-top: 40px;
+}
+
+.date-header-2 {
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    color: black;
+    background-color: lightgray;
+}
+
+.flyer-container-2 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+.pic-2 {
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+
+.beach-show {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 210px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: -110px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.beach-dates {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 280px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.beach-location {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 340px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.beach-price {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 80px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-2 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 140px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: -120px;
+    padding: 5px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.annual-2 {
+    border: 2px solid gray;
+    margin-top: 40px;
+}
+
+.date-header-3 {
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    color: black;
+    background-color: lightgray;
+}
+
+.flyer-container-3 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+.pic-3 {
+    display: flex;
+    width: 200px;
+    height: 1600px;
+    margin-top: 120px;
+}
+
+.worry-show {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 280px;
+    height: 45px;
+    margin-left: 220px;
+    margin-top: -110px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.worry-dates {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 280px;
+    height: 45px;
+    margin-left: 220px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.worry-location {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 340px;
+    height: 40px;
+    margin-left: 220px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.worry-price {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 80px;
+    height: 40px;
+    margin-left: 220px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-3 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 140px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: -120px;
+    padding: 5px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.annual-3 {
+    border: 2px solid gray;
+    margin-top: 160px;
+}
+
+.date-header-4 {
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    color: black;
+    background-color: lightgray;
+}
+
+.flyer-container-4 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+}
+
+.pic-4 {
+    display: flex;
+    width: 180px;
+    height: 180px;
+}
+
+.alien-show {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 210px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: -110px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.alien-dates {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 280px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.alien-location {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 340px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.alien-price {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 80px;
+    height: 40px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-4 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 140px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: -120px;
+    padding: 5px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.annual-4 {
+    border: 2px solid gray;
+    margin-top: 40px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    padding-left: 5px;
+    margin-right: 0px;
+}
+
+.mapimg {
+    width: 200px;
+    height: 200px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.foothead {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tiny {
+    margin: 10px;
+}
